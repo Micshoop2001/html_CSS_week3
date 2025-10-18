@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4b2e2e;
+  text-align: center;
+}
+
+nav {
+  background-color: #c0a080;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  background: url("https://example.com/coffee-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+#about {
+  background-color: #f4e1d2;
+}
